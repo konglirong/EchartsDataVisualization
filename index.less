@@ -73,27 +73,28 @@ header{
             bottom:0;
             left:0;
             width: 100%;
-        &::before{
-            content:'';
-            position: absolute;
-            bottom:0;
-            left:0;
-            width: 10px;
-            height: 10px;
-            border-left: 2px solid #02a6b5;
-            border-bottom: 2px solid #02a6b5;
+            &::before{
+                content:'';
+                position: absolute;
+                bottom:0;
+                left:0;
+                width: 10px;
+                height: 10px;
+                border-left: 2px solid #02a6b5;
+                border-bottom: 2px solid #02a6b5;
+            }
+            &::after{
+                content:'';
+                position: absolute;
+                right:0;
+                bottom:0;
+                width: 10px;
+                height: 10px;
+                border-right: 2px solid #02a6b5;
+                border-bottom: 2px solid #02a6b5;
+            }
         }
-        &::after{
-            content:'';
-            position: absolute;
-            right:0;
-            bottom:0;
-            width: 10px;
-            height: 10px;
-            border-right: 2px solid #02a6b5;
-            border-bottom: 2px solid #02a6b5;
-        }
-        }
+    
     }
 }
  
